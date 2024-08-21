@@ -1,0 +1,410 @@
+{
+  "nld01": {
+    "name": "nld01",
+    "city": "Amsterdam",
+    "lat": "52.3667",
+    "long": "4.9",
+    "country_code": "NLD",
+    "region": "europe"
+  },
+  "bel01": {
+    "name": "bel01",
+    "city": "Brussels",
+    "lat": "50.8503396",
+    "long": "4.3517103",
+    "country_code": "BEL",
+    "region": "europe"
+  },
+  "fra01": {
+    "name": "fra01",
+    "city": "Paris",
+    "lat": "48.8567",
+    "long": "2.3508",
+    "country_code": "FRA",
+    "region": "europe"
+  },
+  "lux01": {
+    "name": "lux01",
+    "city": "Luxembourg",
+    "lat": "49.611621",
+    "long": "6.1319346",
+    "country_code": "LUX",
+    "region": "europe"
+  },
+  "svk01": {
+    "name": "svk01",
+    "city": "Bratislava",
+    "lat": "48.1458923",
+    "long": "17.1071373",
+    "country_code": "SVK",
+    "region": "europe"
+  },
+  "hun01": {
+    "name": "hun01",
+    "city": "Budapest",
+    "lat": "47.497912",
+    "long": "19.040235",
+    "country_code": "HUN",
+    "region": "europe"
+  },
+  "rou01": {
+    "name": "rou01",
+    "city": "Bucharest",
+    "lat": "44.4267674",
+    "long": "26.1025384",
+    "country_code": "ROU",
+    "region": "europe"
+  },
+  "mda01": {
+    "name": "mda01",
+    "city": "Chisinau",
+    "lat": "47.0104529",
+    "long": "28.8638103",
+    "country_code": "MDA",
+    "region": "europe"
+  },
+  "ukr01": {
+    "name": "ukr01",
+    "city": "Kyiv",
+    "lat": "50.4501",
+    "long": "30.5234",
+    "country_code": "UKR",
+    "region": "europe"
+  },
+  "pol01": {
+    "name": "pol01",
+    "city": "Poznan",
+    "lat": "52.406374",
+    "long": "16.925168",
+    "country_code": "POL",
+    "region": "europe"
+  },
+  "srb01": {
+    "name": "srb01",
+    "city": "Belgrade",
+    "lat": "44.786568",
+    "long": "20.4489216",
+    "country_code": "SRB",
+    "region": "europe"
+  },
+  "tur01": {
+    "name": "tur01",
+    "city": "Istanbul",
+    "lat": "41.015137",
+    "long": "28.97953",
+    "country_code": "TUR",
+    "region": "europe"
+  },
+  "mne01": {
+    "name": "mne01",
+    "city": "Podgorica",
+    "lat": "42.441286",
+    "long": "19.262892",
+    "country_code": "MNE",
+    "region": "europe"
+  },
+  "hrv01": {
+    "name": "hrv01",
+    "city": "Zagreb",
+    "lat": "45.8150108",
+    "long": "15.981919",
+    "country_code": "HRV",
+    "region": "europe"
+  },
+  "dnk01": {
+    "name": "dnk01",
+    "city": "Copenhagen",
+    "lat": "55.6760968",
+    "long": "12.5683371",
+    "country_code": "DNK",
+    "region": "europe"
+  },
+  "nor01": {
+    "name": "nor01",
+    "city": "Oslo",
+    "lat": "59.9138688",
+    "long": "10.75224539",
+    "country_code": "NOR",
+    "region": "europe"
+  },
+  "isl01": {
+    "name": "isl01",
+    "city": "Reykjavik",
+    "lat": "64.133333",
+    "long": "-21.933333",
+    "country_code": "ISL",
+    "region": "europe"
+  },
+  "swe01": {
+    "name": "swe01",
+    "city": "Stockholm",
+    "lat": "59.3293234",
+    "long": "18.06858",
+    "country_code": "SWE",
+    "region": "europe"
+  },
+  "deu01": {
+    "name": "deu01",
+    "city": "Frankfurt",
+    "lat": "50.1167",
+    "long": "8.6833",
+    "country_code": "DEU",
+    "region": "europe"
+  },
+  "che01": {
+    "name": "che01",
+    "city": "Geneva",
+    "lat": "46.204391",
+    "long": "6.143158",
+    "country_code": "CHE",
+    "region": "europe"
+  },
+  "cyp01": {
+    "name": "cyp01",
+    "city": "Nicosia",
+    "lat": "35.0400155",
+    "long": "33.1239049",
+    "country_code": "CYP",
+    "region": "europe"
+  },
+  "aut01": {
+    "name": "aut01",
+    "city": "Vienna",
+    "lat": "48.2",
+    "long": "16.3667",
+    "country_code": "AUT",
+    "region": "europe"
+  },
+  "geo01": {
+    "name": "geo01",
+    "city": "Tbilisi",
+    "lat": "41.716667",
+    "long": "44.783333",
+    "country_code": "GEO",
+    "region": "europe"
+  },
+  "isr01": {
+    "name": "isr01",
+    "city": "Tel Aviv",
+    "lat": "32.0852999",
+    "long": "34.7817676",
+    "country_code": "ISR",
+    "region": "europe"
+  },
+  "arm01": {
+    "name": "arm01",
+    "city": "Yerevan",
+    "lat": "40.183333",
+    "long": "44.516666",
+    "country_code": "ARM",
+    "region": "europe"
+  },
+  "ita01": {
+    "name": "ita01",
+    "city": "Milan",
+    "lat": "45.4654219",
+    "long": "9.1859243",
+    "country_code": "ITA",
+    "region": "europe"
+  },
+  "deu02": {
+    "name": "deu02",
+    "city": "Hamburg",
+    "lat": "53.5510846",
+    "long": "9.99368179",
+    "country_code": "DEU",
+    "region": "europe"
+  },
+  "est01": {
+    "name": "est01",
+    "city": "Tallinn",
+    "lat": "59.4369607",
+    "long": "24.75357459",
+    "country_code": "EST",
+    "region": "europe"
+  },
+  "ltu01": {
+    "name": "ltu01",
+    "city": "Kaunas",
+    "lat": "54.898521",
+    "long": "23.903597",
+    "country_code": "LTU",
+    "region": "europe"
+  },
+  "lva01": {
+    "name": "lva01",
+    "city": "Riga",
+    "lat": "56.9496487",
+    "long": "24.1051863",
+    "country_code": "LVA",
+    "region": "europe"
+  },
+  "gbr01": {
+    "name": "gbr01",
+    "city": "London",
+    "lat": "51.5072",
+    "long": "0.1275",
+    "country_code": "GBR",
+    "region": "europe"
+  },
+  "irl01": {
+    "name": "irl01",
+    "city": "Cork",
+    "lat": "51.89797",
+    "long": "-8.47061",
+    "country_code": "IRL",
+    "region": "europe"
+  },
+  "irl02": {
+    "name": "irl02",
+    "city": "Dublin",
+    "lat": "53.3498053",
+    "long": "-6.2603097",
+    "country_code": "IRL",
+    "region": "europe"
+  },
+  "grc01": {
+    "name": "grc01",
+    "city": "Athens",
+    "lat": "37.983917",
+    "long": "23.7293599",
+    "country_code": "GRC",
+    "region": "europe"
+  },
+  "esp01": {
+    "name": "esp01",
+    "city": "Madrid",
+    "lat": "40.416775",
+    "long": "-3.70379",
+    "country_code": "ESP",
+    "region": "europe"
+  },
+  "fra02": {
+    "name": "fra02",
+    "city": "Marseilles",
+    "lat": "43.296482",
+    "long": "5.36978",
+    "country_code": "FRA",
+    "region": "europe"
+  },
+  "prt01": {
+    "name": "prt01",
+    "city": "Lisbon",
+    "lat": "38.722252",
+    "long": "-9.139337",
+    "country_code": "PRT",
+    "region": "europe"
+  },
+  "swe02": {
+    "name": "swe02",
+    "city": "Malm\u00f6",
+    "lat": "55.60587",
+    "long": "13.00073",
+    "country_code": "SWE",
+    "region": "europe"
+  },
+  "mlt01": {
+    "name": "mlt01",
+    "city": "Msida",
+    "lat": "35.8978",
+    "long": "14.4894",
+    "country_code": "MLT",
+    "region": "europe"
+  },
+  "alb01": {
+    "name": "alb01",
+    "city": "Tirana",
+    "lat": "41.327953",
+    "long": "19.819025",
+    "country_code": "ALB",
+    "region": "europe"
+  },
+  "blr01": {
+    "name": "blr01",
+    "city": "Minsk",
+    "lat": "53.916667",
+    "long": "27.55",
+    "country_code": "BLR",
+    "region": "europe"
+  },
+  "cze01": {
+    "name": "cze01",
+    "city": "Prague",
+    "lat": "50.0755381",
+    "long": "14.43780049",
+    "country_code": "CZE",
+    "region": "europe"
+  },
+  "bgr01": {
+    "name": "bgr01",
+    "city": "Sofia",
+    "lat": "42.6977082",
+    "long": "23.3218675",
+    "country_code": "BGR",
+    "region": "europe"
+  },
+  "mkd01": {
+    "name": "mkd01",
+    "city": "Skopje",
+    "lat": "41.9973462",
+    "long": "21.4279956",
+    "country_code": "MKD",
+    "region": "europe"
+  },
+  "fin01": {
+    "name": "fin01",
+    "city": "Helsinki",
+    "lat": "60.169856",
+    "long": "24.938379",
+    "country_code": "FIN",
+    "region": "europe"
+  },
+  "svn01": {
+    "name": "svn01",
+    "city": "Ljubljana",
+    "lat": "46.0569465",
+    "long": "14.505751",
+    "country_code": "SVN",
+    "region": "europe"
+  },
+  "aze01": {
+    "name": "aze01",
+    "city": "Baku",
+    "lat": "40.37767",
+    "long": "49.89201",
+    "country_code": "AZE",
+    "region": "europe"
+  },
+  "prt02": {
+    "name": "prt02",
+    "city": "Porto",
+    "lat": "41.541231",
+    "long": "-8.608335",
+    "country_code": "PRT",
+    "region": "europe"
+  },
+  "esp02": {
+    "name": "esp02",
+    "city": "Bilbao",
+    "lat": "43.263012",
+    "long": "-2.934985",
+    "country_code": "ESP",
+    "region": "europe"
+  },
+  "xkx01": {
+    "name": "xkx01",
+    "city": "Prizren",
+    "lat": "42.21048",
+    "long": "20.73217",
+    "country_code": "XKX",
+    "region": "europe"
+  },
+  "bih01": {
+    "name": "bih01",
+    "city": "Sarajevo",
+    "lat": "43.856258",
+    "long": "18.413076",
+    "country_code": "BIH",
+    "region": "europe"
+  }
+}
