@@ -55,7 +55,7 @@ Considerations:
 
 ## Geographical Map
 
-Since we have the coordinates of the routers in `node_infos.json`, it's logical to draw the network graph on a geographical map. Plotly offers a simple interface for generating interactive diagrams and exporting them as static images. Complete the TODOs in `topology_builder/cc_plotly.py`, then execute the script as shown below to generate a static image `plotly.svg` and an interactive map in `plotly.html`. You may use [pandas](https://pandas.pydata.org/) for data manipulation.
+Since we have the coordinates of the routers in `node_infos.json`, it's logical to draw the network graph on a geographical map. [Plotly](https://plotly.com/python/) offers a simple interface for generating interactive diagrams and exporting them as static images. Complete the TODOs in `topology_builder/cc_plotly.py`, then execute the script as shown below to generate a static image `plotly.svg` and an interactive map in `plotly.html`. You may use [pandas](https://pandas.pydata.org/) for data manipulation.
 
 ```bash
 python topology_builder/cc_plotly.py
