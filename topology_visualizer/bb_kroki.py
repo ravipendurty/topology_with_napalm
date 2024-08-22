@@ -33,7 +33,7 @@ def _kroki_get_url(base_url: str, diagram: str):
 
 @app.callback()
 def template_environment(
-    ctx: typer.Context, template_location: Path = Path("topology_builder/templates")
+    ctx: typer.Context, template_location: Path = Path("topology_visualizer/templates")
 ) -> None:
     env = Environment(
         loader=FileSystemLoader(template_location),
