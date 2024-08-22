@@ -1,3 +1,5 @@
+from typing import Dict, List, Union
+
 import typer
 from napalm import get_network_driver
 
@@ -7,6 +9,19 @@ from rich.table import Table
 app = typer.Typer(help="Generate Rich Neighbor Tabel for a device")
 
 
+def _create_table(
+    device_name: str, lldp_data: Dict[str, List[Dict[str, Union[str, List[str]]]]]
+) -> Table:
+    table = Table(title=f"Neighbor Table: [b]{device_name}[/]")
+    table.add_column("Interface", style="green")
+    table.add_column("Remote System Name", justify="right")
+    table.add_column("Remote System Interface")
+
+    # TODO: Populate the rich table with the LLDP data from the device
+
+    return table
+
+
 @app.command()
 def neighbor_table(
     ctx: typer.Context,
@@ -14,7 +29,7 @@ def neighbor_table(
 ) -> None:
     """
     Collect the LLDP neighbor details with NAPALM
-    
+
     Provide a device name like "che01"
     """
     try:
@@ -34,15 +49,8 @@ def neighbor_table(
         typer.echo("Did you enter a valid device name?", err=True)
         raise typer.Exit(1)
 
-    table = Table(title=f"Neighbor Table: [b]{device_name}[/]")
-    table.add_column("Interface", style="green")
-    table.add_column("Remote System Name", justify="right")
-    table.add_column("Remote System Interface")
-
-    # TODO: Populate the rich table with the LLDP data from the device
-
     console = Console()
-    console.print(table)
+    console.print(_create_table(device_name, lldp_data))
 
 
 if __name__ == "__main__":
