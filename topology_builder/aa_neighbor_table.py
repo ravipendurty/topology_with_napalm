@@ -12,6 +12,11 @@ def neighbor_table(
     ctx: typer.Context,
     device_name: str,
 ) -> None:
+    """
+    Collect the LLDP neighbor details with NAPALM
+    
+    Provide a device name like "che01"
+    """
     try:
         driver = get_network_driver("mock")
         with driver(
@@ -25,7 +30,7 @@ def neighbor_table(
     except NotImplementedError as exc:
         # The napalm mock driver throws a NotImplementedError exception when the file is not found.
         # This is only needed because we use the mock driver
-        typer.echo(exc, err=True)
+        typer.echo(f"Error: {exc}", err=True)
         typer.echo("Did you enter a valid device name?", err=True)
         raise typer.Exit(1)
 
