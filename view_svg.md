@@ -1,6 +1,6 @@
 # Verity your SVGs
 
-To see the SVGs in VS Code, open this Markdown file in the preview.
+To see the SVGs in VS Code, open this Markdown file in preview.
 
 ## Kroki
 
