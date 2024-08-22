@@ -6,13 +6,17 @@ from napalm import get_network_driver
 from rich.console import Console
 from rich.table import Table
 
-app = typer.Typer(help="Generate Rich Neighbor Tabel for a device")
+app = typer.Typer(
+    help="Generate Rich Neighbor Tabel for a device",
+    rich_markup_mode="rich",
+    add_completion=False,
+)
 
 
 def _create_table(
     device_name: str, lldp_data: Dict[str, List[Dict[str, Union[str, List[str]]]]]
 ) -> Table:
-    table = Table(title=f"Neighbor Table: [b]{device_name}[/]")
+    table = Table(title=f"Neighbor Table: [b]{device_name}[/b]")
     table.add_column("Interface", style="green")
     table.add_column("Remote System Name", justify="right")
     table.add_column("Remote System Interface")
@@ -22,7 +26,7 @@ def _create_table(
     return table
 
 
-@app.command()
+@app.command(no_args_is_help=True)
 def neighbor_table(
     ctx: typer.Context,
     device_name: str,
@@ -30,7 +34,15 @@ def neighbor_table(
     """
     Collect the LLDP neighbor details with NAPALM
 
-    Provide a device name like "che01"
+    For example, the following table is generated if you provide the device name [b]che01[/b].
+
+                      [i]Neighbor Table: [b]che01[/b][/i]
+    | Interface  | Remote System Name | Remote System Interface |
+    | ---------- | ------------------ | ----------------------- |
+    | Ethernet1  |              deu01 | Ethernet2               |
+    | Ethernet2  |              ita01 | Ethernet1               |
+    | Ethernet3  |              fra02 | Ethernet2               |
+    | Ethernet4  |              fra01 | Ethernet4               |
     """
     try:
         driver = get_network_driver("mock")
