@@ -1,7 +1,7 @@
 ---
 tags:
   - napalm
-  - intermediate
+  - beginner
   - codespaces
   - python
 ---
@@ -11,7 +11,7 @@ tags:
 
 |             |                                                                                                          |
 | ----------: | :--------------------------------------------------------------------------------------------------------|
-| Level       | intermediate                                                                                             |
+| Level       | beginner                                                                                                 |
 | Repo        | [https://github.com/NetAutLabs/topology_with_napalm](https://github.com/NetAutLabs/topology_with_napalm) |
 | Discussion  | [Discussion GitHub Repo](https://github.com/NetAutLabs/topology_with_napalm/discussions)                 |
 | Codespaces  | :material-check: [GitHub Codespaces](https://codespaces.new/NetAutLabs/topology_with_napalm)             |
