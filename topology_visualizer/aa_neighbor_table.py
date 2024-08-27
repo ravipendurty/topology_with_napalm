@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.table import Table
 
 app = typer.Typer(
-    help="Generate Rich Neighbor Tabel for a device",
+    help="Generate Rich Neighbor Table for a device",
     rich_markup_mode="rich",
     add_completion=False,
 )
@@ -22,6 +22,13 @@ def _create_table(
     table.add_column("Remote System Interface")
 
     # TODO: Populate the rich table with the LLDP data from the device
+    for key in lldp_data:
+        #print (key, "->", lldp_data[key])
+        lldp_details_list = lldp_data[key]
+        length =  len(lldp_details_list)
+        for i in range(length):
+            #print(lldp_details_list[i])
+            table.add_row(key, lldp_details_list[i]["remote_system_name"], lldp_details_list[i]["remote_port"])
 
     return table
 
